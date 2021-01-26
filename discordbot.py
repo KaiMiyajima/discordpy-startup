@@ -14,8 +14,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def IN(ctx):
-    await ctx.send('INしました')
+async def wk(ctx):
+    await ctx.send('タイムカードを切りました')
 
 
 bot.run(token)
