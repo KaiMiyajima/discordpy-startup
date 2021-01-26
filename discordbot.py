@@ -5,10 +5,10 @@ import os
 from discord.ext import tasks
 from datetime import datetime, timedelta, timezone
 
-TOKEN = "ODAzNTg1MDkwMjc3NjA1Mzk3.YA_67w.sBRDwpnP__Y9CYyqigp4Cz1GAYQ"  # トークン
+
 
 # ↓はトークンの自動取得をしようとしてできなかった残骸
-# token = os.environ['DISCORD_BOT_TOKEN']
+token = os.environ['DISCORD_BOT_TOKEN']
 
 client = discord.Client()
 
