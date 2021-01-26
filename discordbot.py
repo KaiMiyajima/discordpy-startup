@@ -1,7 +1,7 @@
 # coding:UTF-8
 import discord
 import os
-
+import traceback
 from discord.ext import tasks
 from datetime import datetime, timedelta, timezone
 
@@ -32,4 +32,4 @@ async def on_message(message):
             await message.channel.send(ms)
 
 # Botの起動とDiscordサーバーへの接続
-client.run(TOKEN)
+client.run(token)
