@@ -14,8 +14,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def in(ctx):
-    await ctx.send('inしました')
+async def IN(ctx):
+    await ctx.send('INしました')
 
 
 bot.run(token)
